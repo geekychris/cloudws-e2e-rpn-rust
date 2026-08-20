@@ -115,3 +115,21 @@ tokens, domain errors) — plus integration tests for the HTTP layer
 ```bash
 cargo test
 ```
+
+## Development
+
+Common commands while working on this project:
+
+```bash
+cargo build          # debug build
+cargo build --release # optimized build
+cargo test            # run all unit + integration tests
+cargo test -- --nocapture # run tests with println! output visible
+cargo run              # run the service locally on :8080
+cargo fmt              # format code
+cargo clippy            # lint
+```
+
+## License
+
+Released under the MIT License. See the `license` field in `Cargo.toml`.

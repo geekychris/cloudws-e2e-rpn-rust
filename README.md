@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Cloudws E2e RPN Rust logo" width="180">
+</p>
+
 # RPN Scientific Calculator
 
 A REST API service that evaluates scientific calculator expressions written in
